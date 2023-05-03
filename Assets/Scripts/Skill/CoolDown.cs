@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class CoolDown : MonoBehaviour
 {
+    #region º¯¼öµé
+
     [SerializeField]
     private bool isCoolDown = false;
     public bool IsCoolDown => isCoolDown;
@@ -12,6 +14,7 @@ public class CoolDown : MonoBehaviour
     public float coolTime = 0;
     private float time = 0;
     public float CheckTime => time;
+#endregion
 
     private void Update()
     {

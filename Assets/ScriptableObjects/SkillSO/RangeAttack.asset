@@ -18,6 +18,6 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: fb8bcba2c8374e8489ff06bf8b57216b, type: 3}
   description: "\uB9C8\uC6B0\uC2A4 \uC704\uCE58\uC5D0 \uBC94\uC704 \uACF5\uACA9\uC744
     \uD55C\uB2E4."
-  keyName: 2
   keyCode: 50
   unRockWave: 3
+  unRock: 0

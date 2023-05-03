@@ -31,7 +31,6 @@ public class BaseSkill : MonoBehaviour
         skillSO.unRock = false;
     }
 
-    // UseSkill만 override하고base.UseSkill사용해서 만들자
     public virtual void CanUseSkill()
     {
         if (skillSO.unRock == false) return;
@@ -44,7 +43,7 @@ public class BaseSkill : MonoBehaviour
 
     public virtual void UseSkill()
     {
-
+        // override해서 스킬의 기능 추가
     }
 
     public virtual void Rock()

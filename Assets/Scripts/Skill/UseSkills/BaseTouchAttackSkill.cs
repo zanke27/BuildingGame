@@ -5,8 +5,6 @@ using UnityEngine.InputSystem;
 
 public class BaseTouchAttackSkill : BaseSkill
 {
-
-
     public override void UseSkill()
     {
         Instantiate(GameAssets.Instance.touchAttackPar, UtilClass.GetMouseWorldPosition(), Quaternion.identity);

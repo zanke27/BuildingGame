@@ -12,7 +12,6 @@ public class SkillSO : ScriptableObject
     public Sprite sprite;
     [TextArea(3, 5)]
     public string description;
-    public string keyName;
     public KeyCode keyCode;
     public int unRockWave;
 

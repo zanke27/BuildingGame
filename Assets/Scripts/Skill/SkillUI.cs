@@ -35,7 +35,7 @@ public class SkillUI : MonoBehaviour
             mouseEnterExitEvents = btnTransform.GetComponent<MouseEnterExitEvents>();
             mouseEnterExitEvents.OnMouseEnter += (object sender, EventArgs e) =>
             {
-                TooltipUI.Instance.Show(skillSO.skillName + "\n" + skillSO.description + "\n" + "사용: " + skillSO.keyName); //+ buildingType.GetConstructionCostString());
+                TooltipUI.Instance.Show(skillSO.skillName + "\n" + skillSO.description + "\n" + "사용: " + skillSO.keyCode.ToString()); //+ buildingType.GetConstructionCostString());
             };
 
             mouseEnterExitEvents.OnMouseExit += (object sender, EventArgs e) =>
